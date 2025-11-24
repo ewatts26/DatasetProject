@@ -1,0 +1,19 @@
+Intro
+    a. What was your general motivation for exploring this topic (i.e. your dataset choice)?
+        I like watching movies so I picked this dataset. Also it has a lot of interesting data and ratings for each movie.
+    b. Briefly describe how the data was collected in your chosen dataset.
+        The data was collected from imdb.
+    c. Which question did you end up exploring further?
+        What is the average runtime of action movies versus non-action movies?
+Process
+    a. How did you go about answering your question? What specific pieces of info did you extract from your dataset and how did you use that data to answer your question?
+        The first thing I did was look in the runtime and genre categories because those were the two catagories that I needed. I used this data by sorting each movie into either action or non action groups, then finding the average runtime for each group.
+    b. What difficulties did you run into and how did you approach solving them?
+        Some difficulties I ran into was that in the data set, each of the categories was separated by commas which was how I found each index, but in the first category was the movie link which contained some commas. This made it very difficult to find the index of the categories that I needed, but I figured out that all of the links contained the same amount of commas, so I counted those and adjusted my indexes.
+Results
+    a. What did the data show? What are your takeaways?
+        The data showed that action movies are longer than non action movies. I think that this happened because action movies have long action seens which could make the movie longer.
+    b. Describe some possible limitations to your research.
+        Some limitations to my research if one of the movie's data wasn't working, I just didn't count it in the total. So although this might not impact it a lot, it could be a limiting factor.
+    c. Given more time and resources, what additional implementation of your question would you be interested to explore?
+        I would like to look at the average rating of action versus non action movies, but this would be more difficult because the rating category is later in the data and there are more commas that messes up the index.
